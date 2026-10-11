@@ -831,14 +831,11 @@ final class EUSV_Plugin {
             : $banner_offsets['bottom-right'];
         echo '<aside class="eusv-banner eusv-' . esc_attr( $settings['position'] ) . '" style="' . esc_attr( $banner_style ) . '" data-auto-hide="' . esc_attr( ! empty( $settings['auto_hide_enabled'] ) ? $settings['auto_hide_seconds'] : 0 ) . '" data-hide-on-scroll="' . esc_attr( $settings['hide_on_scroll'] ) . '" data-remember-close="' . esc_attr( $settings['remember_close'] ) . '" aria-label="Európai uniós támogatási információ">';
         $click_url = ! empty( $settings['custom_url_enabled'] ) ? $settings['click_url'] : '';
-        $tag = $click_url ? 'a' : 'button';
-        $link_attrs = ' class="eusv-banner-link" aria-label="' . esc_attr( $click_url ? 'További információ' : 'Pályázatok részletes megtekintése' ) . '"';
-        if ( 'a' === $tag ) {
-            $link_attrs .= ' href="' . esc_url( $click_url ) . '"';
+        if ( $click_url ) {
+            echo '<a class="eusv-banner-link" aria-label="További információ" href="' . esc_url( $click_url ) . '">';
         } else {
-            $link_attrs .= ' type="button" aria-haspopup="dialog" aria-controls="eusv-popup"';
+            echo '<button class="eusv-banner-link" aria-label="Pályázatok részletes megtekintése" type="button" aria-haspopup="dialog" aria-controls="eusv-popup">';
         }
-        echo '<' . $tag . $link_attrs . '>';
         if ( 'banner' === $settings['display_mode'] && $banner_image ) {
             echo '<img class="eusv-banner-image" src="' . esc_url( $banner_image ) . '" alt="" loading="lazy">';
         } else {
@@ -848,7 +845,11 @@ final class EUSV_Plugin {
             }
             echo '</span>';
         }
-        echo '</' . $tag . '>';
+        if ( $click_url ) {
+            echo '</a>';
+        } else {
+            echo '</button>';
+        }
 
         if ( $settings['close_enabled'] ) {
             echo '<button type="button" class="eusv-close" aria-label="Támogatási információ bezárása">×</button>';
