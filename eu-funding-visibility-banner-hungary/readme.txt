@@ -5,7 +5,7 @@ Tags: eu, funding, projects, visibility, hungary
 Requires at least: 6.2
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 1.0.3
+Stable tag: 1.0.4
 License: GPL-3.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -73,6 +73,11 @@ https://github.com/banditoth/wp-eu-finance-banner-hungary
 
 == Changelog ==
 
+= 1.0.4 =
+
+* Fix safe banner markup output and ignore macOS Finder metadata.
+* Improve the GitHub project documentation and automated release packaging.
+
 = 1.0.3 =
 
 * Updated the plugin name, slug, and setup instructions.
@@ -90,6 +95,10 @@ https://github.com/banditoth/wp-eu-finance-banner-hungary
 * Added the Projects admin menu, built-in official information blocks, and automatically generated project titles.
 
 == Upgrade Notice ==
+
+= 1.0.4 =
+
+Maintenance update with improved banner output and release packaging.
 
 = 1.0.3 =
 
