@@ -1,4 +1,4 @@
-# Bitfox Funding Visibility Banner for EU Projects in Hungary
+# bitfox.creative.studio Funding Visibility Banner for EU Projects in Hungary
 
 [![Release](https://img.shields.io/github/v/release/banditoth/wp-eu-funding-visibility-banner-hungary?display_name=tag)](https://github.com/banditoth/wp-eu-funding-visibility-banner-hungary/releases)
 [![License: GPL-3.0-or-later](https://img.shields.io/badge/License-GPL--3.0--or--later-blue.svg)](LICENSE)
