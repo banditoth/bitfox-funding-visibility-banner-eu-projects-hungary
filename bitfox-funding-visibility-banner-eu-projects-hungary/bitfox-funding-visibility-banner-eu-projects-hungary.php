@@ -1,9 +1,9 @@
 <?php
 /*
- * Plugin Name: EU Funding Visibility Banner – Hungary
- * Plugin URI: https://github.com/banditoth/wp-eu-finance-banner-hungary
+ * Plugin Name: Bitfox Funding Visibility Banner for EU Projects in Hungary
+ * Plugin URI: https://github.com/banditoth/wp-eu-funding-visibility-banner-hungary
  * Description: Manage EU-funded project visibility information and a configurable corner banner for websites in Hungary.
- * Version: 1.0.4
+ * Version: 1.0.5
  * Author: bitfox.creative.studio
  * License: GPL-3.0-or-later
  * License URI: https://www.gnu.org/licenses/gpl-3.0.html
@@ -11,7 +11,7 @@
 
 defined( 'ABSPATH' ) || exit;
 
-define( 'EUSV_VERSION', '1.0.4' );
+define( 'EUSV_VERSION', '1.0.5' );
 define( 'EUSV_FILE', __FILE__ );
 define( 'EUSV_DIR', plugin_dir_path( __FILE__ ) );
 define( 'EUSV_URL', plugin_dir_url( __FILE__ ) );
