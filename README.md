@@ -1,4 +1,4 @@
-# Bitfox EU-projektek láthatósági banner Magyarországon
+# bitfox.hu EU támogatás banner - Magyarország
 
 ![A bővítmény logója](bitfox-funding-visibility-banner-eu-projects-hungary/assets/images/eu-banner-logo.png)
 
@@ -6,7 +6,7 @@
 [![Licenc: GPL-3.0-or-later](https://img.shields.io/badge/License-GPL--3.0--or--later-blue.svg)](LICENSE)
 [![WordPress](https://img.shields.io/badge/WordPress-plugin-21759B?logo=wordpress&logoColor=white)](https://wordpress.org/)
 
-Független Bitfox WordPress-bővítmény EU-finanszírozású projektek adatainak és láthatósági grafikáinak bemutatására magyarországi weboldalakon. Válassz projektalapú sarokbannert vagy önálló bannerképet, majd állítsd be, mi történjen kattintáskor.
+Független bitfox.hu WordPress-bővítmény EU-finanszírozású projektek adatainak és láthatósági grafikáinak bemutatására magyarországi weboldalakon. Válassz projektalapú sarokbannert vagy önálló bannerképet, majd állítsd be, mi történjen kattintáskor.
 
 > Ez független bővítmény. Nem áll kapcsolatban és nincs jóváhagyva az Európai Unió, a magyar kormány vagy bármely irányító hatóság által. Mindig kövesd a támogatási szerződésedben és a felelős hatóság aktuális útmutatójában foglaltakat.
 
@@ -28,7 +28,7 @@ Független Bitfox WordPress-bővítmény EU-finanszírozású projektek adataina
 
 1. Töltsd le a legfrissebb `bitfox-funding-visibility-banner-eu-projects-hungary-*.zip` fájlt a [Kiadások](https://github.com/banditoth/wp-eu-funding-visibility-banner-hungary/releases) oldalról.
 2. A WordPressben nyisd meg a **Bővítmények → Új bővítmény hozzáadása → Bővítmény feltöltése** oldalt.
-3. Válaszd ki a ZIP-fájlt, telepítsd, majd kapcsold be a **Bitfox EU-projektek láthatósági banner Magyarországon** bővítményt.
+3. Válaszd ki a ZIP-fájlt, telepítsd, majd kapcsold be a **bitfox.hu EU támogatás banner - Magyarország** bővítményt.
 
 ### Kézi telepítés
 
@@ -47,6 +47,20 @@ A WordPress adminfelületén nyisd meg a **Pályázatok → Megjelenítés** men
 
 Projektalapú megjelenítéshez hozz létre egy projektet a **Pályázatok → Új pályázat felvétele** oldalon, töltsd ki a kötelező adatokat, majd tedd közzé. A nem teljes vagy közzé nem tett projektek nem jelennek meg a látogatóknak.
 
+## Képernyőképek
+
+### Nyilvános banner
+
+![A sarokbanner megjelenése](docs/screenshots/screenshot-1.png)
+
+### Projekt szerkesztése
+
+![Projekt szerkesztése az adminfelületen](docs/screenshots/screenshot-2.png)
+
+### Projektlista
+
+![A projektek adminisztrációs listája](docs/screenshots/screenshot-3.png)
+
 ## Rövidkódok
 
 | Rövidkód | Megjelenítés |
@@ -58,7 +72,7 @@ A projektadatok kívánt megjelenítési helyére illeszd be a rövidkódot bár
 
 ## Kiadások automatizálása
 
-A [`.github/workflows/release-plugin.yml`](.github/workflows/release-plugin.yml) munkafolyamat egy verziócímke, például `v1.0.6` feltolásakor indul el. Ellenőrzi, hogy a címke megegyezik-e a bővítmény verziójával, ellenőrzi a PHP- és JavaScript-szintaxist, elkészíti a telepíthető ZIP-fájlt, és csatolja azt a GitHub-kiadáshoz.
+A [`.github/workflows/release-plugin.yml`](.github/workflows/release-plugin.yml) munkafolyamat egy verziócímke, például `v1.0.7` feltolásakor indul el. Ellenőrzi, hogy a címke megegyezik-e a bővítmény verziójával, ellenőrzi a PHP- és JavaScript-szintaxist, elkészíti a telepíthető ZIP-fájlt, és csatolja azt a GitHub-kiadáshoz.
 
 ## Követelmények
 

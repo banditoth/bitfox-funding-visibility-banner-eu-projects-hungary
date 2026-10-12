@@ -619,7 +619,7 @@ final class EUSV_Plugin {
             return;
         }
 
-        echo '<div class="notice notice-info"><p><strong>Köszönjük, hogy használod a Pályázatok bővítményt!</strong> A bővítmény minden funkciója ingyenes; licenc nem szükséges a használathoz vagy a frissítésekhez. Ha hasznosnak találod, önkéntes támogató szoftverlicenc vásárlásával segítheted a fejlesztést. Ez nem ad további funkciót és nem változtatja meg a bővítmény működését. <a class="button button-secondary" href="https://www.bitfox.hu/termek/wordpress-eu-palyazatok-beepulo-modul-tamogatoi-szoftverlicensz/" target="_blank" rel="noopener noreferrer">Támogató licenc vásárlása</a></p></div>';
+        echo '<div class="notice notice-info"><p><strong>Köszönjük, hogy használod a bitfox.hu EU támogatás banner - Magyarország bővítményt!</strong> A bővítmény minden funkciója ingyenes; licenc nem szükséges a használathoz vagy a frissítésekhez. Ha hasznosnak találod, önkéntes támogató szoftverlicenc vásárlásával segítheted a fejlesztést. Ez nem ad további funkciót és nem változtatja meg a bővítmény működését. <a class="button button-secondary" href="https://www.bitfox.hu/termek/wordpress-eu-palyazatok-beepulo-modul-tamogatoi-szoftverlicensz/" target="_blank" rel="noopener noreferrer">Támogató licenc vásárlása</a></p></div>';
 
         $supports = get_posts(
             array(

@@ -43,7 +43,7 @@ jobs:
       - name: Publish GitHub Release
         uses: softprops/action-gh-release@v2
         with:
-          name: Bitfox Funding Visibility Banner for EU Projects in Hungary ${{ steps.version.outputs.version }}
+          name: bitfox.hu EU Funding Banner - Hungary ${{ steps.version.outputs.version }}
           generate_release_notes: true
           fail_on_unmatched_files: true
           files: bitfox-funding-visibility-banner-eu-projects-hungary-${{ steps.version.outputs.version }}.zip

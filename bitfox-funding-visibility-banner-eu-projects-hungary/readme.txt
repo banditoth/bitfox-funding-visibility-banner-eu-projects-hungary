@@ -1,19 +1,19 @@
-=== Bitfox EU-projektek láthatósági banner Magyarországon ===
+=== bitfox.hu EU támogatás banner - Magyarország ===
 Contributors: banditoth
 Donate link: https://www.bitfox.hu/termek/wordpress-eu-palyazatok-beepulo-modul-tamogatoi-szoftverlicensz/
 Tags: eu, funding, projects, visibility, hungary
 Requires at least: 6.2
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 1.0.6
+Stable tag: 1.0.7
 License: GPL-3.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
-Független Bitfox-eszköz EU-finanszírozású projektek adatainak és láthatósági elemeinek megjelenítéséhez magyarországi weboldalakon.
+Független bitfox.hu-eszköz EU-finanszírozású projektek adatainak és láthatósági elemeinek megjelenítéséhez magyarországi weboldalakon.
 
 == Leírás ==
 
-A Bitfox EU-projektek láthatósági banner Magyarországon bővítmény segít megjeleníteni az EU-finanszírozású projektek adatait. Rögzítsd a projekt részleteit, és jeleníts meg hivatalos arculati elemeket egy beállítható sarokbannerben, vagy használj önálló bannerképet projektadatok megadása nélkül. A látogatók felugró ablakban tekinthetik meg a projektadatokat, vagy egy tetszőleges hivatkozást nyithatnak meg.
+A bitfox.hu EU támogatás banner - Magyarország bővítmény segít megjeleníteni az EU-finanszírozású projektek adatait. Rögzítsd a projekt részleteit, és jeleníts meg hivatalos arculati elemeket egy beállítható sarokbannerben, vagy használj önálló bannerképet projektadatok megadása nélkül. A látogatók felugró ablakban tekinthetik meg a projektadatokat, vagy egy tetszőleges hivatkozást nyithatnak meg.
 
 A bővítmény hivatalos Széchenyi Terv Plusz / EU társfinanszírozási és RRF / NextGenerationEU grafikákat tartalmaz. A Médiatárból egyedi, projekthez tartozó képet is választhatsz.
 
@@ -34,7 +34,7 @@ Ez a bővítmény független eszköz, nem áll kapcsolatban az Európai Unióval
 == Telepítés ==
 
 1. Töltsd fel a `bitfox-funding-visibility-banner-eu-projects-hungary` mappát a `/wp-content/plugins/` könyvtárba, vagy telepítsd a ZIP-fájlt a **Bővítmények → Új bővítmény hozzáadása → Bővítmény feltöltése** menüpontban.
-2. A **Bővítmények → Telepített bővítmények** oldalon kapcsold be a **Bitfox EU-projektek láthatósági banner Magyarországon** bővítményt.
+2. A **Bővítmények → Telepített bővítmények** oldalon kapcsold be a **bitfox.hu EU támogatás banner - Magyarország** bővítményt.
 3. Nyisd meg a **Pályázatok → Új pályázat felvétele** oldalt, add meg a projekt adatait, majd tedd közzé a projektet.
 4. A **Pályázatok → Megjelenítés** oldalon engedélyezd a sarokbannert, és válaszd a **Pályázatok alapján** vagy a **Csak banner** módot.
 5. Projektalapú megjelenítéshez tegyél közzé legalább egy teljes projektet. Csak banner módban válassz beépített vagy Médiatárból származó képet.
@@ -73,13 +73,19 @@ https://github.com/banditoth/wp-eu-funding-visibility-banner-hungary
 
 == Változásnapló ==
 
+= 1.0.7 =
+
+* A magyar bővítménynév frissült erre: bitfox.hu EU támogatás banner - Magyarország.
+* A márkanév minden leírásban bitfox.hu alakra módosult.
+
+
 = 1.0.6 =
 
 * Magyar nyelvű leírások és a WordPress.org bővítményikon hozzáadása.
 
 = 1.0.5 =
 
-* A név módosult, hogy független Bitfox-eszközként azonosítsa a bővítményt; frissült a WordPress.org-on kért közvetlen hivatkozás is.
+* A név módosult, hogy független bitfox.hu-eszközként azonosítsa a bővítményt; frissült a WordPress.org-on kért közvetlen hivatkozás is.
 
 = 1.0.4 =
 
@@ -104,13 +110,18 @@ https://github.com/banditoth/wp-eu-funding-visibility-banner-hungary
 
 == Frissítési tudnivalók ==
 
+= 1.0.7 =
+
+A bővítmény új neve: bitfox.hu EU támogatás banner - Magyarország.
+
+
 = 1.0.6 =
 
 Magyar nyelvű bővítményleírás és a WordPress.org bővítményikon hozzáadása.
 
 = 1.0.5 =
 
-A bővítménynév és a csomag slugja független Bitfox-eszközként azonosítja a terméket.
+A bővítménynév és a csomag slugja független bitfox.hu-eszközként azonosítja a terméket.
 
 = 1.0.4 =
 
