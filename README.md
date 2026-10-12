@@ -1,68 +1,70 @@
-# Bitfox Funding Visibility Banner for EU Projects in Hungary
+# Bitfox EU-projektek láthatósági banner Magyarországon
 
-[![Release](https://img.shields.io/github/v/release/banditoth/wp-eu-funding-visibility-banner-hungary?display_name=tag)](https://github.com/banditoth/wp-eu-funding-visibility-banner-hungary/releases)
-[![License: GPL-3.0-or-later](https://img.shields.io/badge/License-GPL--3.0--or--later-blue.svg)](LICENSE)
+![A bővítmény logója](bitfox-funding-visibility-banner-eu-projects-hungary/assets/images/eu-banner-logo.png)
+
+[![Kiadás](https://img.shields.io/github/v/release/banditoth/wp-eu-funding-visibility-banner-hungary?display_name=tag)](https://github.com/banditoth/wp-eu-funding-visibility-banner-hungary/releases)
+[![Licenc: GPL-3.0-or-later](https://img.shields.io/badge/License-GPL--3.0--or--later-blue.svg)](LICENSE)
 [![WordPress](https://img.shields.io/badge/WordPress-plugin-21759B?logo=wordpress&logoColor=white)](https://wordpress.org/)
 
-An independent Bitfox WordPress plugin for presenting EU-funded project information and visibility graphics on Hungarian websites. Choose a project-based corner banner or a standalone banner image, then control what visitors see when they click it.
+Független Bitfox WordPress-bővítmény EU-finanszírozású projektek adatainak és láthatósági grafikáinak bemutatására magyarországi weboldalakon. Válassz projektalapú sarokbannert vagy önálló bannerképet, majd állítsd be, mi történjen kattintáskor.
 
-> This is an independent plugin. It is not affiliated with or endorsed by the European Union, the Hungarian Government, or any managing authority. Always follow the requirements of your grant agreement and the current guidance from the responsible authority.
+> Ez független bővítmény. Nem áll kapcsolatban és nincs jóváhagyva az Európai Unió, a magyar kormány vagy bármely irányító hatóság által. Mindig kövesd a támogatási szerződésedben és a felelős hatóság aktuális útmutatójában foglaltakat.
 
-## Features
+## Funkciók
 
-- **Two display modes:** show official visual blocks from complete published projects, or show a banner image without creating project entries.
-- **Built-in graphics:** select the included Széchenyi Terv Plusz / EU co-financing or RRF / NextGenerationEU image.
-- **Custom banner image:** choose an image from the WordPress Media Library.
-- **Project management:** add and reorder project information, including beneficiary, project ID, programme, description, objectives, results, and funding amounts.
-- **Flexible click behavior:** open project details in an on-demand popup, or enable a custom destination URL.
-- **Position and spacing controls:** choose a screen corner and set top, bottom, left, and right margins independently.
-- **Optional visibility controls:** show a close button, remember dismissal for the browser session, hide after a chosen time, or hide on scroll.
-- **Shortcodes:** embed details for one project or list all complete published projects in page and post content.
-- **Release ZIPs:** tagged releases are packaged as installable WordPress plugin ZIP files by GitHub Actions.
+- **Két megjelenítési mód:** teljes, közzétett projektek hivatalos arculati blokkjainak megjelenítése, vagy bannerkép projektadatok nélkül.
+- **Beépített grafikák:** Széchenyi Terv Plusz / EU társfinanszírozási vagy RRF / NextGenerationEU kép kiválasztása.
+- **Egyedi bannerkép:** kép választása a WordPress Médiatárából.
+- **Projektkezelés:** projektadatok rögzítése és sorrendjük módosítása, például kedvezményezett, projektazonosító, program, leírás, célok, eredmények és támogatási összeg.
+- **Rugalmas kattintási működés:** projektadatok megnyitása igény szerint felugró ablakban, vagy egyedi célhivatkozás használata.
+- **Pozíció és térköz:** sarok kiválasztása, valamint a felső, alsó, bal és jobb margó külön beállítása.
+- **Opcionális láthatósági beállítások:** bezárógomb, bezárás megjegyzése a böngésző-munkamenetre, időzített elrejtés vagy elrejtés görgetéskor.
+- **Rövidkódok:** egy projekt részleteinek beillesztése vagy minden teljes projekt listázása oldalon és bejegyzésben.
+- **Kiadási ZIP-fájlok:** a címkézett Git-kiadásokból a GitHub Actions telepíthető WordPress ZIP-fájlt készít.
 
-## Install
+## Telepítés
 
-### From a GitHub Release
+### GitHub-kiadásból
 
-1. Download the latest `bitfox-funding-visibility-banner-eu-projects-hungary-*.zip` from [Releases](https://github.com/banditoth/wp-eu-funding-visibility-banner-hungary/releases).
-2. In WordPress, open **Plugins → Add New Plugin → Upload Plugin**.
-3. Select the ZIP, install it, and activate **Bitfox Funding Visibility Banner for EU Projects in Hungary**.
+1. Töltsd le a legfrissebb `bitfox-funding-visibility-banner-eu-projects-hungary-*.zip` fájlt a [Kiadások](https://github.com/banditoth/wp-eu-funding-visibility-banner-hungary/releases) oldalról.
+2. A WordPressben nyisd meg a **Bővítmények → Új bővítmény hozzáadása → Bővítmény feltöltése** oldalt.
+3. Válaszd ki a ZIP-fájlt, telepítsd, majd kapcsold be a **Bitfox EU-projektek láthatósági banner Magyarországon** bővítményt.
 
-### Manual installation
+### Kézi telepítés
 
-Copy the [`bitfox-funding-visibility-banner-eu-projects-hungary/`](bitfox-funding-visibility-banner-eu-projects-hungary/) folder to `/wp-content/plugins/`, then activate the plugin from **Plugins → Installed Plugins**.
+Másold a [`bitfox-funding-visibility-banner-eu-projects-hungary/`](bitfox-funding-visibility-banner-eu-projects-hungary/) mappát a `/wp-content/plugins/` könyvtárba, majd kapcsold be a **Bővítmények → Telepített bővítmények** oldalon.
 
-## Configure
+## Beállítás
 
-Open **Pályázatok → Megjelenítés** in the WordPress admin area.
+A WordPress adminfelületén nyisd meg a **Pályázatok → Megjelenítés** menüpontot.
 
-1. Enable the corner banner.
-2. Choose **Pályázatok alapján** to display official blocks from complete published projects, or **Csak banner** to display a banner image without project entries.
-3. Choose a built-in image or select a custom image from the Media Library when using banner-only mode.
-4. Optionally enable a custom URL. If it is off, clicking the banner opens the project details popup.
-5. Set the corner, margins, close button, session dismissal memory, and optional automatic hiding.
-6. Save the settings.
+1. Engedélyezd a sarokbannert.
+2. Válaszd a **Pályázatok alapján** módot a teljes, közzétett projektek arculati elemeinek megjelenítéséhez, vagy a **Csak banner** módot projektadatok nélküli bannerképhez.
+3. Csak banner módban válassz beépített képet vagy egy képet a Médiatárból.
+4. Igény szerint adj meg egyedi hivatkozást. Ha nincs bekapcsolva, a bannerre kattintva a projektadatok felugró ablaka nyílik meg.
+5. Állítsd be a sarkot, a margókat, a bezárógombot, a bezárás megjegyzését és az automatikus elrejtést.
+6. Mentsd a beállításokat.
 
-For project-based display, add a project from **Pályázatok → Új pályázat felvétele**, complete its required fields, and publish it. Incomplete or unpublished projects are excluded from the public listing.
+Projektalapú megjelenítéshez hozz létre egy projektet a **Pályázatok → Új pályázat felvétele** oldalon, töltsd ki a kötelező adatokat, majd tedd közzé. A nem teljes vagy közzé nem tett projektek nem jelennek meg a látogatóknak.
 
-## Shortcodes
+## Rövidkódok
 
-| Shortcode | Displays |
+| Rövidkód | Megjelenítés |
 | --- | --- |
-| `[eusv_support id="123"]` | Detailed information for one project. Replace `123` with its project post ID. |
-| `[eusv_supports]` | All complete published projects, in the configured order. |
+| `[eusv_support id="123"]` | Egy projekt részletes adatai. A `123` helyére a projekt bejegyzésazonosítója kerüljön. |
+| `[eusv_supports]` | Minden teljes, közzétett projekt a beállított sorrendben. |
 
-Add a shortcode to the content of any page or post where you want the project information to appear.
+A projektadatok kívánt megjelenítési helyére illeszd be a rövidkódot bármely oldal vagy bejegyzés tartalmába.
 
-## Release automation
+## Kiadások automatizálása
 
-The workflow in [`.github/workflows/release-plugin.yml`](.github/workflows/release-plugin.yml) runs when a version tag such as `v1.0.5` is pushed. It checks that the tag matches the plugin version, validates PHP and JavaScript syntax, builds the installable ZIP, and attaches it to a GitHub Release.
+A [`.github/workflows/release-plugin.yml`](.github/workflows/release-plugin.yml) munkafolyamat egy verziócímke, például `v1.0.6` feltolásakor indul el. Ellenőrzi, hogy a címke megegyezik-e a bővítmény verziójával, ellenőrzi a PHP- és JavaScript-szintaxist, elkészíti a telepíthető ZIP-fájlt, és csatolja azt a GitHub-kiadáshoz.
 
-## Requirements
+## Követelmények
 
-- WordPress 6.2 or newer
-- PHP 7.4 or newer
+- WordPress 6.2 vagy újabb
+- PHP 7.4 vagy újabb
 
-## License
+## Licenc
 
-Distributed under the [GNU General Public License v3.0 or later](LICENSE).
+A bővítmény a [GNU General Public License 3.0 vagy újabb](LICENSE) licenc alatt érhető el.
