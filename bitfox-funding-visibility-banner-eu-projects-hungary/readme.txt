@@ -1,11 +1,11 @@
-=== EU Funding Visibility Banner – Hungary ===
+=== Bitfox Funding Visibility Banner for EU Projects in Hungary ===
 Contributors: banditoth
 Donate link: https://www.bitfox.hu/termek/wordpress-eu-palyazatok-beepulo-modul-tamogatoi-szoftverlicensz/
 Tags: eu, funding, projects, visibility, hungary
 Requires at least: 6.2
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 1.0.4
+Stable tag: 1.0.5
 License: GPL-3.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -13,7 +13,7 @@ Manage EU-funded project visibility information and a configurable corner banner
 
 == Description ==
 
-EU Funding Visibility Banner – Hungary helps website owners display information about EU-funded projects. Add project details and display official visual identity blocks in a configurable corner banner, or show a standalone banner image without entering project data. Visitors can open project details in a popup or follow an optional custom URL.
+Bitfox Funding Visibility Banner for EU Projects in Hungary is an independent Bitfox tool that helps website owners display information about EU-funded projects. Add project details and display official visual identity blocks in a configurable corner banner, or show a standalone banner image without entering project data. Visitors can open project details in a popup or follow an optional custom URL.
 
 The plugin includes official Széchenyi Terv Plusz / EU co-financing and RRF / NextGenerationEU graphics. You can also select an official project-specific image from the Media Library.
 
@@ -33,8 +33,8 @@ This plugin is an independent tool and is not affiliated with or endorsed by the
 
 == Installation ==
 
-1. Upload the `eu-funding-visibility-banner-hungary` folder to `/wp-content/plugins/`, or install the ZIP through **Plugins → Add New Plugin → Upload Plugin**.
-2. Activate **EU Funding Visibility Banner – Hungary** under **Plugins → Installed Plugins**.
+1. Upload the `bitfox-funding-visibility-banner-eu-projects-hungary` folder to `/wp-content/plugins/`, or install the ZIP through **Plugins → Add New Plugin → Upload Plugin**.
+2. Activate **Bitfox Funding Visibility Banner for EU Projects in Hungary** under **Plugins → Installed Plugins**.
 3. Open **Pályázatok → Új pályázat felvétele** (Projects → Add New Project) and enter the required project information. Publish the project when it is ready to display.
 4. Open **Pályázatok → Megjelenítés** (Projects → Display) to enable the corner banner and choose **Pályázatok alapján** (Project-based) or **Csak banner** (Banner only).
 5. In project-based mode, publish at least one complete project. In banner-only mode, select a built-in or Media Library image.
@@ -69,9 +69,13 @@ All plugin functionality is available free of charge. An optional supporter soft
 
 == Repository ==
 
-https://github.com/banditoth/wp-eu-finance-banner-hungary
+https://github.com/banditoth/wp-eu-funding-visibility-banner-hungary
 
 == Changelog ==
+
+= 1.0.5 =
+
+* Renamed the plugin to identify it as an independent Bitfox tool and updated its requested WordPress.org permalink.
 
 = 1.0.4 =
 
@@ -95,6 +99,10 @@ https://github.com/banditoth/wp-eu-finance-banner-hungary
 * Added the Projects admin menu, built-in official information blocks, and automatically generated project titles.
 
 == Upgrade Notice ==
+
+= 1.0.5 =
+
+The plugin name and package slug now identify it as an independent Bitfox tool.
 
 = 1.0.4 =
 

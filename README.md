@@ -1,10 +1,10 @@
-# EU Funding Visibility Banner – Hungary
+# Bitfox Funding Visibility Banner for EU Projects in Hungary
 
-[![Release](https://img.shields.io/github/v/release/banditoth/wp-eu-finance-banner-hungary?display_name=tag)](https://github.com/banditoth/wp-eu-finance-banner-hungary/releases)
+[![Release](https://img.shields.io/github/v/release/banditoth/wp-eu-funding-visibility-banner-hungary?display_name=tag)](https://github.com/banditoth/wp-eu-funding-visibility-banner-hungary/releases)
 [![License: GPL-3.0-or-later](https://img.shields.io/badge/License-GPL--3.0--or--later-blue.svg)](LICENSE)
 [![WordPress](https://img.shields.io/badge/WordPress-plugin-21759B?logo=wordpress&logoColor=white)](https://wordpress.org/)
 
-A WordPress plugin for presenting EU-funded project information and visibility graphics on Hungarian websites. Choose a project-based corner banner or a standalone banner image, then control what visitors see when they click it.
+An independent Bitfox WordPress plugin for presenting EU-funded project information and visibility graphics on Hungarian websites. Choose a project-based corner banner or a standalone banner image, then control what visitors see when they click it.
 
 > This is an independent plugin. It is not affiliated with or endorsed by the European Union, the Hungarian Government, or any managing authority. Always follow the requirements of your grant agreement and the current guidance from the responsible authority.
 
@@ -24,13 +24,13 @@ A WordPress plugin for presenting EU-funded project information and visibility g
 
 ### From a GitHub Release
 
-1. Download the latest `eu-funding-visibility-banner-hungary-*.zip` from [Releases](https://github.com/banditoth/wp-eu-finance-banner-hungary/releases).
+1. Download the latest `bitfox-funding-visibility-banner-eu-projects-hungary-*.zip` from [Releases](https://github.com/banditoth/wp-eu-funding-visibility-banner-hungary/releases).
 2. In WordPress, open **Plugins → Add New Plugin → Upload Plugin**.
-3. Select the ZIP, install it, and activate **EU Funding Visibility Banner – Hungary**.
+3. Select the ZIP, install it, and activate **Bitfox Funding Visibility Banner for EU Projects in Hungary**.
 
 ### Manual installation
 
-Copy the [`eu-funding-visibility-banner-hungary/`](eu-funding-visibility-banner-hungary/) folder to `/wp-content/plugins/`, then activate the plugin from **Plugins → Installed Plugins**.
+Copy the [`bitfox-funding-visibility-banner-eu-projects-hungary/`](bitfox-funding-visibility-banner-eu-projects-hungary/) folder to `/wp-content/plugins/`, then activate the plugin from **Plugins → Installed Plugins**.
 
 ## Configure
 
@@ -56,7 +56,7 @@ Add a shortcode to the content of any page or post where you want the project in
 
 ## Release automation
 
-The workflow in [`.github/workflows/release-plugin.yml`](.github/workflows/release-plugin.yml) runs when a version tag such as `v1.0.3` is pushed. It checks that the tag matches the plugin version, validates PHP and JavaScript syntax, builds the installable ZIP, and attaches it to a GitHub Release.
+The workflow in [`.github/workflows/release-plugin.yml`](.github/workflows/release-plugin.yml) runs when a version tag such as `v1.0.5` is pushed. It checks that the tag matches the plugin version, validates PHP and JavaScript syntax, builds the installable ZIP, and attaches it to a GitHub Release.
 
 ## Requirements
 
